@@ -1,0 +1,26 @@
+body{
+    background-color: blue;
+    display: flex;
+}
+.conteiner{
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    padding-left: 10px;
+}
+.img{
+    height: 10%;
+    width: 10%;
+    padding-top:10px;
+}
+.conteinerH{
+    padding-left:60px;
+    padding-top:px;
+    
+    
+}
+li{
+    grid-area: 10%;
+    display: flex;
+}

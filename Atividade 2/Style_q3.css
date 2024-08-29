@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+main{
+    margin-left: 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+.left{
+    margin-top: 10%;
+    background-color: green;
+    height: 300px;
+    width:100%;
+}
+.center{
+    margin-top: 10%;
+    background-color: rgb(37, 5, 54);
+    height: 300px;
+    width: 100%;
+}
+.right{
+    margin-top: 10%;
+    background-color: rgb(255, 0, 81);
+    height: 300px;
+    width: 100%;
+}
