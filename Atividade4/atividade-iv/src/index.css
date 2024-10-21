@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  background-color: #f0f0f0; /* Cor de fundo da página */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Ocupa toda a altura da janela */
+  margin: 0; /* Remove margens padrão */
+}
+
+h1 {
+  font-size: 2.5rem; /* Tamanho da fonte do título */
+  color: #333; /* Cor do texto */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+button {
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  font-size: 1rem; /* Tamanho da fonte do botão */
+  color: white; /* Cor do texto do botão */
+  background-color: #007bff; /* Cor de fundo do botão */
+  border: none; /* Remove bordas do botão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+  transition: background-color 0.3s; /* Efeito de transição ao mudar a cor */
+}
+
+button:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
